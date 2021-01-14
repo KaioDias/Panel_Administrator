@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@300&display=swap');
+
+/*
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+
+*/
+
+body{
+    background:#c8c9cc ;
+    overflow-x: hidden ;
+}
+
+
+@media(min-width: 768px){
+
+    #page-content-wrapper{
+        min-width: 0;
+        width: 100%;
+    }
+
+}
+
+
+#page-content-wrapper{
+    min-width: 100vw;
+}
+
+/*----------------------------------------------------*/
+#navbar-site-title{
+    font-family: 'Nunito', sans-serif;;
+    font-size: 18;
+    padding-left:1.2% ;
+}
+
+.son-form-field{
+    border-radius: 9px;
+    border-width: 1px;
+    border-color: #bacad6ff;
+    box-shadow: 0px 1px 2px rgba(164, 164, 164, 1);
+    color:rgb(0, 0, 0);
+    font-family: 'Nunito' , sans-serif;
+    font-size: 16px;
+}
+
+.son-form-field::placeholder{
+
+    color:#c4c8ccff;
+    font-family: 'Nunito' , sans-serif;
+    font-size: 16px;
+
+}
+
+#navbar-search-form{
+    width:350px;
+}
+
+#navbar-search-field{
+        width: 100%;
+}
+
+#navbar-profile img{
+    border-radius: 50%;
+    width: 10%;
+    
+
+}
+
+#navbar-profile span{
+    padding-left: 4%;
+    color: #262d37ff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#son-navbar{
+    background-color: #fff;
+    box-shadow: 8px 2px 6px rgba(164, 164, 164, 0.3);
+}
